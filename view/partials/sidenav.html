@@ -1,0 +1,35 @@
+<div class="uk-card uk-card-default uk-card-body nav-main" id="navId">
+    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+        <li class="uk-active"><a href="#"> <span uk-icon="thumbnails"></span> <span id="navText">Dashboard</span></a></li>
+        <li class="uk-parent">
+            <a href="#"><span uk-icon="album"></span><span id="navText">Courses</span></a>
+            <ul class="uk-nav-sub">
+                <li><a href="#"><span uk-icon="rss"></span><span id="navText">Sub item</span></a></li>
+                <li><a href="#"><span uk-icon="tag"></span><span id="navText">Sub item</span></a></li>
+            </ul>
+        </li>
+        <li class="uk-parent">
+            <a href="#"><span uk-icon="user"></span><span id="navText">Students</span> </a>
+            <ul class="uk-nav-sub">
+                <li><a href="#"><span uk-icon="mail"></span><span id="navText">Sub item</a></span></li>
+                <li><a href="#"><span uk-icon="bookmark"></span><span id="navText">Sub item</a></span></li>
+            </ul>
+        </li>
+        <li class="uk-parent">
+            <a href="#"><span uk-icon="users"></span><span id="navText">Mentors</span></a>
+            <ul class="uk-nav-sub">
+                <li><a href="../src/allMember.html"><span uk-icon="nut"></span><span id="navText">All Mentors</span></a></li>
+                <li><a href="../src/aboutMentor.html"><span uk-icon="star"></span><span id="navText">About Mentors</span></a></li>
+                <li><a href="#"><span uk-icon="bolt"></span><span id="navText">Edit Mentors</span></a></li>
+            </ul>
+        </li>
+        <li class="uk-active"><a href="../src/payout.html"> <span uk-icon="thumbnails"></span><span id="navText">Payout</span></a></li>
+    </ul>
+</div>
+
+<script>
+    UIkit.nav(element, options);
+    UIkit.nav(element).toggle(index, animate);
+    UIkit.icon(element, options);
+
+</script>

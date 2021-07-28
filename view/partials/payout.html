@@ -1,0 +1,81 @@
+<div w3-include-html="../partials/header.html" class="header"></div>
+
+<div class='uk-grid' id="rmG">
+    
+<div class="uk-width-auto">
+    <div w3-include-html="../partials/sidenav.html"></div>
+</div>
+<div class="uk-width-expand hValue">
+
+    <div class="contentA">  
+        
+        <div w3-include-html="../partials/model.html"></div>
+
+        <!-- Payout Details -->
+        <div class="title">Payout</div>
+        <p>Company Earning Information</p>
+        <div class="row uk-grid">
+            <div class="col-md-3">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small uk-card-body">
+                        <span><span uk-icon="link"></span>  Total Income</span><br>
+                        <span class= "tsizer">$19000</span><br><br>
+                        <div><p></p></div>
+                        <p>40% increase</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small uk-card-body">
+                        <span><span uk-icon="server"></span>  Success Transfer</span><br>
+                        <span class= "tsizer">$10000</span><br><br>
+                        <div><p></p></div>
+                        <p>40% increase</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small uk-card-body">
+                        <span><span uk-icon="credit-card"></span>  Your Balance</span><br>
+                        <span class= "tsizer">$9000</span><br><br>
+                        <div><p></p></div>
+                        <p>40% increase</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:30px 0 0 15px;">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-small">
+                        <a href="#modal-overflow" uk-toggle>
+                            <input type="button" style="font-size: 60%;" class="uk-button uk-button-primary uk-button-small" value="Transfer now">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">Recent Transaction</div>
+        <div class="table uk-card uk-card-body uk-card-default uk-overflow-auto">
+            <table class="uk-table uk-table-large" id="table-mentor" >
+                <thead>
+                    <tr>
+                        <td>Photo</td>
+                        <td>Name Mentor</td>
+                        <td>Email</td>
+                        <td>Total Transfer</td>
+                        <td>Status</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody id="tBodyDataPayout">
+                    
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+</div>

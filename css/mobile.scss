@@ -1,0 +1,78 @@
+@media (max-width: 1000px) {
+    .icon {
+        
+            padding: 13px 5px 0 100px !important;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #navText{
+        display:none
+    }
+    .content-sm{
+        display: block !important;
+    }
+    .nav-main {
+        padding: 15px;
+        width:65px !important;
+        // position: absolute;
+        // bottom: 0px;
+        border-top: none;
+        ul{
+            padding-right: 0px;
+
+            a{
+                font-size: 2vh;
+            }
+        }
+    }
+    .contentA {
+        padding: 0 20px 0 0;
+    }
+    table {
+        font-size: 100%;
+    }
+    .icon {       
+        padding: 13px 5px 0 0px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .searchW{
+        display:none;
+    }
+    .searchM{
+        display:initial;
+    }
+    .uk-navbar-toggle{
+        position: relative;
+        left: -97px;
+        top: 5px;
+    }
+    .nav-main {
+        a{
+            font-size: 4vh !important;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .nav-main {
+        a{
+            font-size: 4.5vh !important;
+        }
+    }
+}
+@media (max-width: 399px) {
+    .notSupported{
+
+        padding: 110px;
+        font-size: xx-large;
+        font-family: cursive;
+        font-weight: bolder;
+        background: coral;
+    }
+}
+

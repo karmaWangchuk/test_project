@@ -1,0 +1,171 @@
+html, body {
+  font-family: Helvetica;
+  color: #a29e9e;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.main-container {
+  background-color: #FBF0F0;
+  max-width: none;
+}
+
+.nav-main {
+  position: relative;
+  height: 700px;
+  width: 230px;
+  padding-right: 0px;
+  border-top: 1px solid #cec7c7;
+}
+
+.nav-main ul {
+  padding-right: 80px;
+}
+
+.nav-main ul a {
+  font-size: 16px;
+  padding-bottom: 7px;
+}
+
+.uk-nav-sub a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.input {
+  border-radius: 8px;
+}
+
+.uk-icon:not(.uk-preserve) [stroke*='#']:not(.uk-preserve) {
+  stroke: black;
+}
+
+.contentA {
+  position: relative;
+  padding: 30px;
+}
+
+.contentA .title {
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
+.contentA .table {
+  border-radius: 12px;
+  padding: 0px;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
+
+.contentA .table th {
+  font-size: 13px;
+}
+
+.contentA .table td {
+  padding: 10px 10px;
+}
+
+.contentA #tBodyDataAboutMentor, .contentA #tBodyDataPayout, .contentA #tBodyData {
+  border-top: 2px solid #cec7c7;
+  font-size: 13px;
+}
+
+.contentA .pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.contentA .uk-grid {
+  padding-bottom: 50px;
+}
+
+.contentA .uk-grid .uk-card, .contentA .uk-grid input {
+  border-radius: 12px;
+}
+
+.contentA .uk-grid div:nth-child(1) > div > div > div {
+  width: 100%;
+  background-color: #ececec;
+}
+
+.contentA .uk-grid div:nth-child(1) > div > div > div p {
+  width: 60px;
+  border-top: 5px solid #000096;
+  border-radius: 10px;
+}
+
+.contentA .uk-grid div:nth-child(2) > div > div > div {
+  width: 100%;
+  background-color: #ececec;
+}
+
+.contentA .uk-grid div:nth-child(2) > div > div > div p {
+  width: 40px;
+  border-top: 5px solid #000096;
+  border-radius: 10px;
+}
+
+.contentA .uk-grid div:nth-child(3) > div > div > div {
+  width: 100%;
+  background-color: #ececec;
+}
+
+.contentA .uk-grid div:nth-child(3) > div > div > div p {
+  width: 30px;
+  border-top: 5px solid #000096;
+  border-radius: 10px;
+}
+
+.contentA a a:link {
+  text-decoration: none;
+}
+
+.contentA a a:visited {
+  text-decoration: none;
+}
+
+.contentA a a:hover {
+  text-decoration: underline;
+}
+
+.contentA a a:active {
+  text-decoration: underline;
+}
+
+.contentA .tsizer {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.uk-search-navbar .uk-search-input {
+  background: #FBF0F0;
+  border-radius: 10px;
+  width: 169px;
+  height: 29px;
+  font-size: 15px;
+}
+
+.searchM {
+  display: none;
+}
+
+.Atop {
+  font-size: 13px;
+}
+
+.Atop .Atop-card {
+  border-radius: 8px;
+}
+
+.Abottom p {
+  font-weight: bold;
+}
+
+.picA {
+  height: 201px;
+}
+/*# sourceMappingURL=framework.css.map */

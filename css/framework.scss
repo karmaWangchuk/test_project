@@ -1,0 +1,168 @@
+@import './variable';
+
+html,body {    
+    font-family: $font-family;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    // background-color: $content-color;
+}
+.main-container{
+    background-color: $content-color;
+    max-width: none;;
+}
+
+.nav-main {
+    position:relative;
+    height: 700px;
+    width: 230px;
+    padding-right: 0px;
+    border-top: 1px solid $border-color;
+    ul{
+        padding-right: 80px;
+        a {
+            font-size: 16px;
+            padding-bottom: 7px;
+        }
+
+    }
+}
+
+.header-main{
+    
+}
+
+.uk-nav-sub {
+    a {
+        width: max-content;
+    }
+}
+
+.input {
+    border-radius: 8px;
+}
+
+.uk-icon:not(.uk-preserve) [stroke*='#']:not(.uk-preserve) {
+    stroke: black;
+}
+
+.contentA {
+    position: relative;
+    // background-color: $content-color;
+    padding: 30px;
+    .title{
+        padding-bottom: 15px;
+        font-weight: bolder;
+    }
+    .table {
+        border-radius: 12px;
+        padding: 0px;
+        word-wrap: break-word;
+        th {
+            font-size: 13px;
+        }
+        overflow-x:auto;
+        
+        td {
+            padding: 10px 10px;
+        }
+    }
+    
+    #tBodyDataAboutMentor,#tBodyDataPayout, #tBodyData{
+        border-top: 2px solid $border-color;
+        font-size: 13px;
+    }
+    .pic {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .uk-grid{
+        padding-bottom: 50px;
+        
+        .uk-card, input{
+            border-radius: 12px;
+            
+        }
+        div:nth-child(1) > div > div > div{
+            width: 100%;
+            background-color: rgb(236, 236, 236);
+            p{
+                width: 60px;
+                border-top: 5px solid $text-color-blue;   
+                border-radius: 10px; 
+            }
+        }
+        div:nth-child(2) > div > div > div{
+            width: 100%;
+            background-color: rgb(236, 236, 236);
+            p{
+                width: 40px;
+                border-top: 5px solid $text-color-blue;   
+                border-radius: 10px; 
+            }
+        }
+        div:nth-child(3) > div > div > div{
+            width: 100%;
+            background-color: rgb(236, 236, 236);
+            p{
+                width: 30px;
+                border-top: 5px solid $text-color-blue;   
+                border-radius: 10px; 
+            }
+        }
+
+    }
+    a {
+          a:link {
+            text-decoration: none;
+          }
+          
+          a:visited {
+            text-decoration: none;
+          }
+          
+          a:hover {
+            text-decoration: underline;
+          }
+          
+          a:active {
+            text-decoration: underline;
+          }
+    }
+    .tsizer{
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+        // padding-left: 20px;
+    }
+    
+}
+.uk-search-navbar .uk-search-input {
+    background:$content-color;
+    border-radius: 10px;
+    width: 169px;
+    height: 29px;
+    font-size: 15px;
+}
+.searchM{
+    display:none;
+}
+
+.Atop {
+   font-size: 13px;
+   .Atop-card {
+       border-radius: 8px;
+   }
+}
+
+.Abottom{
+    p {
+        font-weight: bold;
+    }
+}
+
+.picA{
+    height:201px
+}

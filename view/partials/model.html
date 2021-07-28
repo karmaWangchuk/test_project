@@ -1,0 +1,35 @@
+<div id="modal-overflow" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Headline</h2>
+        </div>
+
+        <div class="uk-modal-body" uk-overflow-auto>
+
+            <p>The Service you are trying to avail is unavilable</p>
+
+        </div>
+
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <button class="uk-button uk-button-primary" type="button">Save</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    UIkit.modal(element).show();
+    UIkit.modal(element).hide();
+    UIkit.modal.confirm('UIkit confirm!').then(function() {
+        console.log('Confirmed.')
+        }, function () {
+            console.log('Rejected.')
+    });
+    const modal = UIkit.modal.confirm('UIkit confirm!').dialog; // The modal component
+    const el = modal.$el; // The modal element
+
+</script>
